@@ -10,8 +10,8 @@
 	{
 		"default_icon":
 		{
-			"19": "19.png",
-			"38": "38.png"
+			"19": "mustache19.png",
+			"38": "mustache38.png"
 		},
 		"default_popup": "popup.html"
 	},
@@ -35,9 +35,9 @@
 	"description": "Your personal adjutant",
 	"icons":
 	{
-		"16": "16.png",
-		"48": "48.png",
-		"128": "128.png"
+		"16": "mustache16.png",
+		"48": "mustache48.png",
+		"128": "mustache128.png"
 	},
 	"manifest_version": 2,
 	"name": "qusar",
