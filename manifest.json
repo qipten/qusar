@@ -24,12 +24,14 @@
 			],
 			"js":
 			[
+				"adjutant.js",
 				"content.js"
 			],
 			"matches":
 			[
 				"*://*/*"
-			]
+			],
+			"run_at": "document_end"
 		}
 	],
 	"description": "Your personal adjutant",
