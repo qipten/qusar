@@ -1,7 +1,7 @@
 div.note
 {
 	background: #fff;
-	box-shadow: 0 0.1em 0.5em 0 rgba(0, 0, 0, 0.25);
+	box-shadow: 0 0.1em 0.75em 0 rgba(0, 0, 0, 0.25);
 	height: 10em;
 	left: 100px;
 	position: absolute;
@@ -13,6 +13,6 @@ div.note
 
 div.note:active
 {
-	box-shadow: 0 0.25em 1em 0 rgba(0, 0, 0, 0.25);
+	box-shadow: 0 0.25em 1.25em 0 rgba(0, 0, 0, 0.25);
 	cursor: move;
 }
