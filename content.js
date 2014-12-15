@@ -13,6 +13,10 @@ Adjutant.event.Manager =
 		{
 			window.console.log(shiftX + ' ' + shiftY);
 		},
+		ondblclick: function()
+		{
+			divNote.style.display = 'none';
+		},
 		onmousedown: function(event)
 		{
 			isDrag = true;
