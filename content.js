@@ -7,7 +7,9 @@ divNote.className = 'qusar-note';
 
 window.document.body.appendChild(divNote);
 
-window.document.body.onclick = function()
-{
-	adjutant.property.set = 'click';
+window.document.body.onclick = function() {
+	adjutant.report = {
+		message: 'click',
+		page: window
+	};
 };

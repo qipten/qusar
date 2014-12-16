@@ -1,42 +1,29 @@
 {
-	"background":
-	{
-		"scripts":
-		[
-			"background.js"
-		]
+	"background": {
+		"scripts": ["background.js"]
 	},
-	"browser_action":
-	{
-		"default_icon":
-		{
+	"browser_action": {
+		"default_icon": {
 			"19": "mustache19.png",
 			"38": "mustache38.png"
 		},
 		"default_popup": "popup.html"
 	},
-	"content_scripts":
-	[
-		{
-			"css":
-			[
-				"content.css"
-			],
-			"js":
-			[
-				"adjutant.js",
-				"content.js"
-			],
-			"matches":
-			[
-				"*://*/*"
-			],
-			"run_at": "document_end"
-		}
-	],
+	"content_scripts": [{
+		"css": [
+			"content.css"
+		],
+		"js": [
+			"adjutant.js",
+			"content.js"
+		],
+		"matches": [
+			"*://*/*"
+		],
+		"run_at": "document_end"
+	}],
 	"description": "Your personal adjutant",
-	"icons":
-	{
+	"icons": {
 		"16": "mustache16.png",
 		"48": "mustache48.png",
 		"128": "mustache128.png"
@@ -44,8 +31,7 @@
 	"manifest_version": 2,
 	"name": "qusar",
 	"options_page": "options.html",
-	"permissions":
-	[
+	"permissions": [
 		"*://*/*",
 		"contextMenus",
 		"storage",
