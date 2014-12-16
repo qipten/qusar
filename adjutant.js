@@ -1,14 +1,12 @@
-var Adjutant =
+var window;
+var adjutant =
 {
-	event:
+	property:
 	{
-		get Manager() {},
-		set Manager(order)
+		get set() {},
+		set set(message)
 		{
-			for(var key in order.events)
-			{
-				order.object[key] = order.events[key];
-			}
+			window.console.log(message);
 		}
 	}
 };
