@@ -1,6 +1,9 @@
 var window = window;
 
-window.chrome.contextMenus.create({
+var menu =
+{
 	contexts: ['all'],
 	title: 'Qusar'
-});
+}
+
+window.chrome.contextMenus.create(menu);
